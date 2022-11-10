@@ -33,6 +33,10 @@ img{
 	position: relative;
 }
 
+td>a {
+	color: white;
+}
+
 .dates{
 	flex-basis:70%;
 	padding-left: 5%;
