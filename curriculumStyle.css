@@ -1,7 +1,6 @@
 html, body{
 	height:100%;
 	margin:0;
-	min-width:589px;
 	font-family: 'Noto Sans', sans-serif;
 	min-height: 638px;
 }
@@ -23,7 +22,6 @@ img{
 
 .main-content{
 	display:flex;
-	height: 100%;
 }
 
 .summary{
@@ -34,7 +32,6 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	min-height: 638px;
 	position: relative;
 }
 
@@ -131,3 +128,17 @@ table + p {
 }
 
 /*--------------------------------------------------------------*/
+
+@media (min-height: 752px) {
+	.main-content{
+		height:100%;
+	}
+	
+}
+
+@media (max-width: 530px) {
+	.main-content{
+		height:auto;
+	}
+	
+}
