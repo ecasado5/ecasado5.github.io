@@ -1,3 +1,5 @@
+/*-------------------- General --------------------*/
+
 html, body{
 	height:100%;
 	margin:0;
@@ -12,35 +14,56 @@ img{
 	vertical-align:super;
 }
 
-#mine{
-	width:200px;
-	height:200px;
-	margin-top: 5%;
+h3{
+	background-color: #e5d8ea;
+	width: 100%;
 }
+
+em{
+	font-weight: bold;
+}
+
+/*-------------------- Main Content --------------------*/
 
 .main-content{
 	display:flex;
 }
 
+
+/*-------------------- Summary --------------------*/
+
 .summary{
 	flex-basis:30%;
 	background-color: #0f3344;
 	color: white;
-	z-index: -4;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	position: relative;
 }
 
-td>a {
-	color: white;
+#mine{
+	width:200px;
+	height:200px;
+	margin-top: 5%;
 }
 
-.dates{
-	flex-basis:70%;
-	padding-left: 5%;
-	height: 100%;
+#register{
+	z-index: 10;
+	position: relative;
+}
+
+#register>p{
+	text-align: justify;
+	margin: 10% 20% 10%;
+}
+
+td>a{
+	color:white;
+}
+
+td>a:hover{
+	color:#e5d8ea;
 }
 
 th>img{
@@ -57,25 +80,20 @@ table{
 	text-align: justify;
 }
 
-h3{
-	background-color: #e5d8ea;
-	width: 100%;
-}
-
-em{
-	font-weight: bold;
-}
-
-.summary>p{
-	text-align: justify;
-	margin: 10% 20% 10%;
-}
-
 table + p {
 	background-color: rgba(15,51,68,.3);
 	border-radius: 5%;
 	padding:2%;
 }
+
+/*-------------------- Dates --------------------*/
+
+.dates{
+	flex-basis:70%;
+	padding-left: 5%;
+	height: 100%;
+}
+
 
 .hobbies{
 	display: flex;
@@ -105,7 +123,7 @@ table + p {
 	background: #e5d8ea;
 	border-radius: 0 0 100% 0;
 	position: absolute;
-	z-index: -1;
+	z-index: 1;
 }
 
 #waveF1{
@@ -114,7 +132,7 @@ table + p {
 	background: #e5d8ea;
 	border-radius: 0 100% 0 0;
 	position: absolute;
-	z-index: -3;
+	z-index: 1;
 	bottom:0px;
 }
 
@@ -124,7 +142,7 @@ table + p {
 	background: pink;
 	border-radius: 0 100% 0 0;
 	position: absolute;
-	z-index: -1;
+	z-index: 3;
 	bottom:0px;
 }
 
@@ -134,12 +152,12 @@ table + p {
 	background: yellowgreen;
 	border-radius: 100% 0 0 0;
 	position: absolute;
-	z-index: -2;
+	z-index: 2;
 	margin-bottom: 0;
 	bottom:0px;
 }
 
-/*--------------------------------------------------------------*/
+/*-------------------- Respoonsive @media --------------------*/
 
 @media (min-height: 752px) {
 	.main-content{
