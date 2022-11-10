@@ -45,7 +45,7 @@ em{
 #mine{
 	width:200px;
 	height:200px;
-	margin-top: 5%;
+	margin-top: 3%;
 }
 
 #register{
@@ -119,7 +119,7 @@ table + p {
 
 #wave{
 	width: 100%; 
-	height: 29%; 
+	height: 32%; 
 	background: #e5d8ea;
 	border-radius: 0 0 100% 0;
 	position: absolute;
@@ -172,6 +172,9 @@ table + p {
 	}
 	table{
 		margin-top:60%;
+	}
+	#wave{
+		height: 24%;
 	}
 }
 
