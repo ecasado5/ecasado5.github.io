@@ -2,7 +2,8 @@
 ## My CV
 
 __•	Poject analysis:__
-  ___o	Characterize the final user: who will be the final user? What is he/she expected to find in your project?___
+  
+   ___o	Characterize the final user: who will be the final user? What is he/she expected to find in your project?___
   > I think the end user Will be a recruiter. She/he expect to know who am I, the places that I worked, what are my studies and if I am not stopped, in other words, if I   continue to learn complementari things about the technology aside my studies. Always improving.	
 
    ___o	Information architecture: in this project, which is assumed to be a singlepage project, this analysis isn’t very relevant___
