@@ -114,6 +114,20 @@ table + p {
 	transition-duration: 1s;
 	transform: scale(1.3);
 }
+/*---------------------Footer----------------------*/
+
+footer{
+	background-color: #0f3344;
+	text-align: center;
+	color:white;
+	height: 50px;
+	line-height: 50px;
+}
+footer>p{
+	vertical-align: middle;
+	display: inline-block;
+	line-height: normal;
+}
 
 /*---------------------Waves----------------------*/
 
