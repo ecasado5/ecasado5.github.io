@@ -15,6 +15,7 @@ __•	Poject analysis:__
 
    >The tipography that I used is the most simply letters that I found. I don’t have confucions about if I have a I or L and I think its very clear to read.
 
+   >My page layout are a left side bar, a right part of content and a footer. This page is very simple, I don’t think it’s necessary put visual header, menus, etc.
 
 ## __Figma:__
 
